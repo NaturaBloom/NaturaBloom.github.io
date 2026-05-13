@@ -1,62 +1,195 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NHP Nutrition | 天然维生素E复合胶囊</title>
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Roboto,sans-serif;}
-        body{background:#f8fafb;color:#222;}
-        header{background:#153450;padding:18px 40px;display:flex;justify-content:space-between;align-items:center;}
-        .logo{color:#fff;font-size:22px;font-weight:bold;}
-        nav a{color:#fff;text-decoration:none;margin:0 15px;font-size:15px;}
-        .banner{background:linear-gradient(rgba(21,52,80,0.8),rgba(21,52,80,0.95)),url('');padding:120px 20px;text-align:center;color:#fff;}
-        .banner h1{font-size:42px;margin-bottom:15px;}
-        .banner p{font-size:18px;opacity:0.9;max-width:750px;margin:0 auto 30px;line-height:1.8;}
-        .btn{display:inline-block;background:#2e7dbb;color:#fff;padding:14px 32px;border-radius:30px;text-decoration:none;font-weight:500;border:none;cursor:pointer;}
-        .container{max-width:1200px;margin:60px auto;padding:0 20px;}
-        .row{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
-        .box{background:#fff;padding:30px;border-radius:12px;box-shadow:0 4px 15px #0000000a;}
-        h2{color:#153450;margin-bottom:20px;}
-        footer{background:#153450;color:#fff;text-align:center;padding:30px;margin-top:60px;font-size:14px;}
-        .buy-btn{background:#27ae60;margin-top:15px;}
+    <title>Doctor's Best - Science Based Nutrition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#ff7a00',
+                        dark: '#1a1a1a',
+                        grayText: '#555555',
+                        lightGray: '#f5f5f5',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'Helvetica Neue', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {content-visibility: auto;}
+            .nav-shadow {box-shadow: 0 2px 8px rgba(0,0,0,0.08);}
+            .card-shadow {box-shadow: 0 3px 10px rgba(0,0,0,0.06);}
+        }
     </style>
 </head>
-<body>
-    <header>
-        <div class="logo">NHP</div>
-        <nav>
-            <a href="index.html">Home / 首页</a>
-            <a href="product.html">Product / 产品</a>
-            <a href="about.html">About / 关于</a>
-            <a href="faq.html">FAQ / 问答</a>
-        </nav>
-    </header>
-
-    <section class="banner">
-        <h1>Advanced Natural Vitamin E Complex</h1>
-        <p><strong>天然维生素E生育三烯酚复合胶囊</strong><br/>纯正植物萃取 | 无大豆配方 | 2001年美国本土品牌</p>
-        <a href="product.html" class="btn">View Details / 查看产品详情</a>
-    </section>
-
-    <div class="container">
-        <div class="row">
-            <div class="box">
-                <h2>Why Choose NHP / 品牌优势</h2>
-                <p><strong>EN:</strong> Established in 2001, NHP has been providing high-quality dietary supplements sourced from natural sunflower, palm and rice oils.</p>
-                <p><strong>中文：</strong>NHP创立于2001年，坐落于美国佛罗里达州，严选向日葵、棕榈、米糠天然植物油萃取原料，专注高端膳食营养补充剂。</p>
-            </div>
-            <div class="box">
-                <h2>Product Advantage / 产品亮点</h2>
-                <p><strong>EN:</strong> Soy free, MCT oil, hypoallergenic capsules, no artificial additives.</p>
-                <p><strong>中文：</strong>无大豆配方、中链甘油三酯基底、植物胶囊低敏配方，无人工色素、无防腐剂，适合长期日常补充。</p>
-                <a href="#" class="btn buy-btn">Buy Now / 立即购买</a>
-            </div>
-        </div>
+<body class="font-sans text-dark bg-white">
+    <!-- 顶部通知栏 -->
+    <div class="bg-primary text-white text-center py-2 text-sm">
+        Free Shipping on Orders Over $30 | New Women’s Collection Now Available
     </div>
 
-    <footer>
-        © 2026 NHP Nutrition. All Rights Reserved. 125 SW 3rd Place, Cape Coral, FL USA
+    <!-- 导航栏 -->
+    <header class="sticky top-0 bg-white nav-shadow z-50">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <a href="#" class="text-2xl font-bold">Doctor's Best</a>
+            <!-- 桌面导航 -->
+            <nav class="hidden md:flex gap-6 text-sm font-medium">
+                <a href="#" class="hover:text-primary transition">Shop</a>
+                <a href="#" class="hover:text-primary transition">Best Sellers</a>
+                <a href="#" class="hover:text-primary transition">Health Topics</a>
+                <a href="#" class="hover:text-primary transition">New</a>
+                <a href="#" class="hover:text-primary transition">About Us</a>
+                <a href="#" class="hover:text-primary transition">Blog</a>
+                <a href="#" class="hover:text-primary transition">Contact</a>
+            </nav>
+            <!-- 功能图标 -->
+            <div class="flex gap-4 text-lg">
+                <i class="fa fa-search cursor-pointer hover:text-primary"></i>
+                <i class="fa fa-shopping-cart cursor-pointer hover:text-primary"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- 首屏Hero -->
+    <section class="bg-lightGray py-16 md:py-24">
+        <div class="container mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold leading-tight mb-4">
+                    The Power of Science In Every Bottle
+                </h1>
+                <p class="text-grayText text-lg mb-6 max-w-lg">
+                    Our commitment is about educating, empowering, and supporting you on your wellness journey.
+                </p>
+                <div class="flex flex-wrap gap-3 mb-6">
+                    <span class="border border-primary text-primary px-3 py-1 rounded-full text-sm">Science Based</span>
+                    <span class="border border-grayText text-grayText px-3 py-1 rounded-full text-sm">Certified</span>
+                    <span class="border border-grayText text-grayText px-3 py-1 rounded-full text-sm">Trusted</span>
+                </div>
+                <a href="#" class="bg-primary text-white px-8 py-3 rounded font-medium inline-block hover:opacity-90 transition">
+                    Shop Best Sellers
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://picsum.photos/id/292/600/400" alt="Supplement" class="rounded-lg w-full card-shadow">
+            </div>
+        </div>
+    </section>
+
+    <!-- 健康分类入口 -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-8">Shop By Health Topic</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 text-center">
+                <a href="#" class="py-4 bg-lightGray rounded hover:bg-primary hover:text-white transition">Women's Health</a>
+                <a href="#" class="py-4 bg-lightGray rounded hover:bg-primary hover:text-white transition">Men's Health</a>
+                <a href="#" class="py-4 bg-lightGray rounded hover:bg-primary hover:text-white transition">Antioxidant</a>
+                <a href="#" class="py-4 bg-lightGray rounded hover:bg-primary hover:text-white transition">Bone Support</a>
+                <a href="#" class="py-4 bg-lightGray rounded hover:bg-primary hover:text-white transition">Beauty</a>
+                <a href="#" class="py-4 bg-lightGray rounded hover:bg-primary hover:text-white transition">Kids Health</a>
+                <a href="#" class="py-4 bg-lightGray rounded hover:bg-primary hover:text-white transition">Eye Support</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 热销产品区 -->
+    <section class="py-12 bg-lightGray">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-8">Best Sellers</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- 产品卡片1 -->
+                <div class="bg-white rounded p-4 card-shadow">
+                    <img src="https://picsum.photos/id/306/300/300" class="w-full h-52 object-contain mb-4">
+                    <h3 class="font-semibold">High Absorption CoQ10</h3>
+                    <p class="text-grayText text-sm my-2">Heart & Energy Support</p>
+                    <div class="font-bold text-primary">$24.99</div>
+                    <button class="w-full mt-3 bg-dark text-white py-2 rounded hover:bg-primary transition">Add to Cart</button>
+                </div>
+                <!-- 产品卡片2 -->
+                <div class="bg-white rounded p-4 card-shadow">
+                    <img src="https://picsum.photos/id/307/300/300" class="w-full h-52 object-contain mb-4">
+                    <h3 class="font-semibold">Magnesium Glycinate</h3>
+                    <p class="text-grayText text-sm my-2">Bone & Nerve Support</p>
+                    <div class="font-bold text-primary">$19.99</div>
+                    <button class="w-full mt-3 bg-dark text-white py-2 rounded hover:bg-primary transition">Add to Cart</button>
+                </div>
+                <!-- 产品卡片3 -->
+                <div class="bg-white rounded p-4 card-shadow">
+                    <img src="https://picsum.photos/id/308/300/300" class="w-full h-52 object-contain mb-4">
+                    <h3 class="font-semibold">Vitamin K2 MK-7</h3>
+                    <p class="text-grayText text-sm my-2">Cardiovascular Health</p>
+                    <div class="font-bold text-primary">$21.99</div>
+                    <button class="w-full mt-3 bg-dark text-white py-2 rounded hover:bg-primary transition">Add to Cart</button>
+                </div>
+                <!-- 产品卡片4 -->
+                <div class="bg-white rounded p-4 card-shadow">
+                    <img src="https://picsum.photos/id/309/300/300" class="w-full h-52 object-contain mb-4">
+                    <h3 class="font-semibold">Vitamin D3 5000IU</h3>
+                    <p class="text-grayText text-sm my-2">Immune Support</p>
+                    <div class="font-bold text-primary">$15.99</div>
+                    <button class="w-full mt-3 bg-dark text-white py-2 rounded hover:bg-primary transition">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 品牌承诺 -->
+    <section class="py-16 container mx-auto px-4 text-center">
+        <h2 class="text-2xl font-bold mb-4">SUPPORT YOU CAN TRUST</h2>
+        <p class="text-grayText max-w-2xl mx-auto mb-8">
+            Every product is doctor formulated to ensure the highest quality, manufactured in cGMP certified facilities and backed by science.
+        </p>
+        <div class="flex flex-wrap justify-center gap-6 items-center">
+            <div class="border rounded px-6 py-3">cGMP Certified</div>
+            <div class="border rounded px-6 py-3">USP Verified</div>
+            <div class="border rounded px-6 py-3">Non-GMO</div>
+            <div class="border rounded px-6 py-3">Doctor Formulated</div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white py-10">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="font-bold mb-4">Doctor's Best</h3>
+                <p class="text-grayText text-sm">Science Based Nutrition for a healthier life.</p>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4">Shop</h4>
+                <ul class="space-y-2 text-grayText">
+                    <li><a href="#" class="hover:text-primary">Best Sellers</a></li>
+                    <li><a href="#" class="hover:text-primary">New Products</a></li>
+                    <li><a href="#" class="hover:text-primary">Health Topics</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4">Company</h4>
+                <ul class="space-y-2 text-grayText">
+                    <li><a href="#" class="hover:text-primary">About Us</a></li>
+                    <li><a href="#" class="hover:text-primary">Blog</a></li>
+                    <li><a href="#" class="hover:text-primary">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4">Support</h4>
+                <ul class="space-y-2 text-grayText">
+                    <li><a href="#" class="hover:text-primary">Shipping Policy</a></li>
+                    <li><a href="#" class="hover:text-primary">Returns</a></li>
+                    <li><a href="#" class="hover:text-primary">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center text-grayText text-sm mt-8 pt-6 border-t border-gray-800">
+            © 2025 Doctor's Best. All rights reserved.
+        </div>
     </footer>
 </body>
 </html>
