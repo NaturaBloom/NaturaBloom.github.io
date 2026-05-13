@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product | 产品详情-NHP维生素E</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Roboto,sans-serif;}
+        body{background:#f8fafb;color:#222;}
+        header{background:#153450;padding:18px 40px;display:flex;justify-content:space-between;align-items:center;}
+        .logo{color:#fff;font-size:22px;font-weight:bold;}
+        nav a{color:#fff;text-decoration:none;margin:0 15px;font-size:15px;}
+        .container{max-width:900px;margin:60px auto;padding:0 20px;}
+        .card{background:#fff;border-radius:14px;box-shadow:0 6px 20px #00000012;padding:40px;}
+        h1{color:#153450;font-size:28px;margin-bottom:10px;}
+        table{width:100%;border-collapse:collapse;margin:25px 0;}
+        th,td{border:1px solid #eee;padding:12px;text-align:left;}
+        th{background:#f4f7fa;}
+        .warn{background:#fff3f3;border-left:4px solid #d94444;padding:15px;margin:20px 0;border-radius:6px;}
+        footer{background:#153450;color:#fff;text-align:center;padding:30px;margin-top:60px;font-size:14px;}
+        .product-img{width:100%;max-width:350px;border-radius:10px;margin:20px auto;display:block;}
+        .buy-btn{background:#27ae60;margin-top:15px;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">NHP</div>
+        <nav>
+            <a href="index.html">Home / 首页</a>
+            <a href="product.html">Product / 产品</a>
+            <a href="about.html">About / 关于</a>
+            <a href="faq.html">FAQ / 问答</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h1>Natural Vitamin E Complex Capsules</h1>
+            <p><strong>天然维生素E复合胶囊｜90粒装｜无大豆｜植物萃取</strong></p>
+            <!-- 此处为产品图片位，直接替换图片链接即可 -->
+            <img class="product-img" src="" alt="NHP Vitamin E Product">
+            <hr style="margin:20px 0">
+
+            <h3>Supplement Facts / 营养成分表</h3>
+            <p>Serving Size: 1 Capsule / 每份1粒 &nbsp; Servings Per Container: 90 / 共90份</p>
+            <table>
+                <tr>
+                    <th>Ingredient 成分</th>
+                    <th>Amount Per Serving 每份含量</th>
+                    <th>% Daily Value 每日占比</th>
+                </tr>
+                <tr>
+                    <td>Vitamin E (d-Alpha Tocopherol) 天然维生素E</td>
+                    <td>134 mg</td>
+                    <td>893%</td>
+                </tr>
+                <tr>
+                    <td>Tocotrienols Complex 生育三烯酚</td>
+                    <td>50 mg</td>
+                    <td>*</td>
+                </tr>
+                <tr>
+                    <td>Tocopherols Complex 混合生育酚</td>
+                    <td>25 mg</td>
+                    <td>*</td>
+                </tr>
+            </table>
+            <p>* Daily Value not established. / 暂无每日参考摄入量标准。</p>
+
+            <h3>Other Ingredients / 其他配料</h3>
+            <p>Hydroxypropyl Methylcellulose (Capsule), Medium Chain Triglycerides.</p>
+            <p>羟丙基甲基纤维素（植物胶囊）、中链甘油三酯。</p>
+
+            <h3>Suggested Use / 使用建议</h3>
+            <p><strong>EN:</strong> Adults take one (1) capsule daily as a dietary supplement.</p>
+            <p><strong>中文：</strong>成人每日服用1粒，建议随餐服用，利于吸收。</p>
+
+            <div class="warn">
+                <strong>Warning / 警示：</strong><br/>
+                Keep out of reach of children. Do not use if safety seal is broken.<br/>
+                请放置于儿童无法触及处；封条破损请勿食用。<br/>
+                If you are pregnant, nursing or taking medication, consult your physician before use.<br/>
+                孕妇、哺乳期、服药人群请咨询医师后使用。
+            </div>
+            <a href="#" class="btn buy-btn">Purchase Now｜官方购买通道</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 NHP Nutrition. All Rights Reserved.
+    </footer>
+</body>
+</html>

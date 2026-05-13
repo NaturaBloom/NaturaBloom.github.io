@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ｜常见问题-NHP</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Roboto,sans-serif;}
+        body{background:#f8fafb;color:#222;}
+        header{background:#153450;padding:18px 40px;display:flex;justify-content:space-between;align-items:center;}
+        .logo{color:#fff;font-size:22px;font-weight:bold;}
+        nav a{color:#fff;text-decoration:none;margin:0 15px;font-size:15px;}
+        .container{max-width:800px;margin:60px auto;padding:0 20px;}
+        .faq{background:#fff;padding:35px;border-radius:14px;box-shadow:0 5px 18px #00000010;}
+        h1{color:#153450;margin-bottom:30px;}
+        h4{margin-top:22px;color:#2e7dbb;}
+        p{line-height:1.7;}
+        footer{background:#153450;color:#fff;text-align:center;padding:30px;margin-top:60px;font-size:14px;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">NHP</div>
+        <nav>
+            <a href="index.html">Home / 首页</a>
+            <a href="product.html">Product / 产品</a>
+            <a href="about.html">About / 关于</a>
+            <a href="faq.html">FAQ / 问答</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="faq">
+            <h1>Frequently Asked Questions｜常见问题</h1>
+            <h4>1. Is this product soy free? / 是否不含大豆？</h4>
+            <p><strong>EN:</strong> Yes. This vitamin E formula is 100% soy free, sourced from sunflower oil, palm oil and rice oil.</p>
+            <p><strong>中文：</strong>完全无大豆配方，原料取自向日葵、棕榈、米糠植物油，规避大豆过敏源。</p>
+
+            <h4>2. When is the best time to take it? / 最佳服用时间？</h4>
+            <p><strong>EN:</strong> One capsule per day after meals is recommended for better absorption.</p>
+            <p><strong>中文：</strong>建议每日餐后服用一粒，油脂环境更利于维生素E吸收。</p>
+
+            <h4>3. Is it suitable for sensitive people? / 敏感人群可用吗？</h4>
+            <p><strong>EN:</strong> No artificial pigments, no preservatives, hypoallergenic plant capsules.</p>
+            <p><strong>中文：</strong>无色素、无防腐剂、植物胶囊低敏配方，敏感体质友好。</p>
+
+            <h4>4. Can pregnant women take it? / 孕妇能否食用？</h4>
+            <p><strong>EN:</strong> Pregnant or breastfeeding women need to consult a doctor before use.</p>
+            <p><strong>中文：</strong>孕期、哺乳期女性请遵从医师指导后食用。</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 NHP Nutrition. All Rights Reserved.
+    </footer>
+</body>
+</html>

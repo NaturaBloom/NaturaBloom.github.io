@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us｜品牌介绍-NHP</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Roboto,sans-serif;}
+        body{background:#f8fafb;color:#222;}
+        header{background:#153450;padding:18px 40px;display:flex;justify-content:space-between;align-items:center;}
+        .logo{color:#fff;font-size:22px;font-weight:bold;}
+        nav a{color:#fff;text-decoration:none;margin:0 15px;font-size:15px;}
+        .container{max-width:800px;margin:60px auto;padding:0 20px;}
+        .content{background:#fff;padding:40px;border-radius:14px;box-shadow:0 5px 18px #00000010;}
+        h1{color:#153450;margin-bottom:25px;}
+        p{line-height:1.8;margin-bottom:16px;}
+        footer{background:#153450;color:#fff;text-align:center;padding:30px;margin-top:60px;font-size:14px;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">NHP</div>
+        <nav>
+            <a href="index.html">Home / 首页</a>
+            <a href="product.html">Product / 产品</a>
+            <a href="about.html">About / 关于</a>
+            <a href="faq.html">FAQ / 问答</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h1>About NHP Nutrition｜品牌简介</h1>
+            <p><strong>EN:</strong> Founded in 2001, NHP is a professional dietary supplement distributor located in Cape Coral, Florida, USA. We focus on providing pure, natural and high-quality nutritional products for global customers.</p>
+            <p><strong>中文：</strong>NHP成立于2001年，位于美国佛罗里达州卡普科拉尔，是专业膳食补充剂经销品牌。专注天然、纯净、高标准营养补充产品，面向全球用户输出高品质健康膳食补充剂。</p>
+            <p><strong>EN:</strong> We strictly select raw materials from sunflower oil, palm oil and rice bran oil to ensure that every ingredient is natural and free of unnecessary additives.</p>
+            <p><strong>中文：</strong>严选向日葵油、棕榈油、米糠油植物原料，拒绝多余添加剂，无大豆、无人工合成成分，适配敏感体质人群。</p>
+            <p><strong>Address / 地址：</strong> 125 SW 3rd Place, Cape Coral, FL 33991 USA</p>
+            <p><strong>Phone / 联系电话：</strong> (877) 985-2696</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 NHP Nutrition. All Rights Reserved.
+    </footer>
+</body>
+</html>
